@@ -301,7 +301,6 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-description {
@@ -346,6 +345,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
   max-width: 264px;
 }
