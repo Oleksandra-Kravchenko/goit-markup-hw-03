@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -179,7 +179,7 @@ a {
   background-color: #404bbf;
 }
 
-/*todo ===PRINCIPLES=== */
+/* ===PRINCIPLES=== */
 
 .principles {
   background-color: #fff;
@@ -230,7 +230,7 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -240,6 +240,7 @@ a {
 .team-item {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item: first-child {
@@ -308,7 +309,8 @@ a {
   padding-right: 16px;
   padding-bottom: 32px;
   padding-left: 16px;
-  border: none;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
